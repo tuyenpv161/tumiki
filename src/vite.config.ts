@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/TUMIKI-ORG-Homepage-Design/',
+  base: '/tumiki/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

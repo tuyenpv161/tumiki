@@ -2,7 +2,7 @@
 
 ## 📋 Tổng quan
 
-Website TUMIKI sẽ được deploy tại: **https://tuyenpv161.github.io/TUMIKI-ORG-Homepage-Design/**
+Website TUMIKI sẽ được deploy tại: **https://tuyenpv161.github.io/tumiki/**
 
 ---
 
@@ -12,7 +12,7 @@ Website TUMIKI sẽ được deploy tại: **https://tuyenpv161.github.io/TUMIKI
 
 - Tìm nút **Export** hoặc **Download** trong Figma Make
 - Download toàn bộ code về máy tính
-- Giải nén vào thư mục `TUMIKI-ORG-Homepage-Design`
+- Giải nén vào thư mục `tumiki`
 
 ### 1.2. Khởi tạo Git Repository
 
@@ -20,7 +20,7 @@ Mở Terminal/Command Prompt tại thư mục dự án:
 
 ```bash
 # Di chuyển vào thư mục dự án
-cd TUMIKI-ORG-Homepage-Design
+cd tumiki
 
 # Khởi tạo Git
 git init
@@ -32,7 +32,7 @@ git add .
 git commit -m "Initial commit: TUMIKI website"
 
 # Thêm remote repository
-git remote add origin https://github.com/tuyenpv161/TUMIKI-ORG-Homepage-Design.git
+git remote add origin https://github.com/tuyenpv161/tumiki.git
 
 # Đổi tên branch thành main
 git branch -M main
@@ -47,7 +47,7 @@ git push -u origin main
 
 ### 2.1. Truy cập Settings
 
-1. Mở repository: https://github.com/tuyenpv161/TUMIKI-ORG-Homepage-Design
+1. Mở repository: https://github.com/tuyenpv161/tumiki
 2. Click vào tab **Settings**
 3. Ở sidebar bên trái, click **Pages**
 
@@ -71,7 +71,7 @@ Khi bạn push code lên branch `main`, GitHub Actions sẽ:
 1. ✅ Tự động cài đặt dependencies
 2. ✅ Build website
 3. ✅ Deploy lên GitHub Pages
-4. ✅ Website sẽ có tại: https://tuyenpv161.github.io/TUMIKI-ORG-Homepage-Design/
+4. ✅ Website sẽ có tại: https://tuyenpv161.github.io/tumiki/
 
 ### Kiểm tra trạng thái deployment:
 
@@ -102,7 +102,7 @@ git push origin main
 ```
 
 4. **Đợi 2-3 phút** để GitHub Actions tự động deploy
-5. **Truy cập** https://tuyenpv161.github.io/TUMIKI-ORG-Homepage-Design/ để xem kết quả
+5. **Truy cập** https://tuyenpv161.github.io/tumiki/ để xem kết quả
 
 ---
 
@@ -207,6 +207,6 @@ Nếu gặp vấn đề:
 
 ## 🎉 Hoàn tất!
 
-Website của bạn đã sẵn sàng tại: **https://tuyenpv161.github.io/TUMIKI-ORG-Homepage-Design/**
+Website của bạn đã sẵn sàng tại: **https://tuyenpv161.github.io/tumiki/**
 
 Mỗi lần push code, website sẽ tự động cập nhật sau 2-3 phút! 🚀

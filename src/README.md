@@ -76,8 +76,8 @@ Website chính thức của Viện Công nghệ TUMIKI - Một tổ chức nghi�
 
 1. Clone repository:
 ```bash
-git clone https://github.com/[your-username]/tumiki-website.git
-cd tumiki-website
+git clone https://github.com/tuyenpv161/tumiki.git
+cd tumiki
 ```
 
 2. Cài đặt dependencies:
