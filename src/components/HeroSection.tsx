@@ -11,7 +11,7 @@ const slides = [
     stats: [
       { value: '500+', label: 'Dự án hoàn thành' },
       { value: '50+', label: 'Đối tác chiến lược' },
-      { value: '15+', label: 'Năm kinh nghiệm' },
+      { value: '10+', label: 'Năm kinh nghiệm' },
     ],
     cardBadge: 'Nghiên cứu khoa học',
     cardTitle: 'Nghiên cứu và phát triển công nghệ tiên tiến',
