@@ -166,6 +166,13 @@ git config --global user.email "email@example.com"
 3. Đợi 5-10 phút rồi thử lại
 4. Hard refresh browser: `Ctrl + Shift + R` (Windows) hoặc `Cmd + Shift + R` (Mac)
 
+### Lỗi 5: Routing không hoạt động (trang con 404)
+
+**Giải pháp:**
+- ✅ Đã fix: Thêm `basename="/tumiki"` vào Router
+- ✅ File workflow đã ở đúng vị trí: `.github/workflows/deploy.yml`
+- Sau khi push code mới, website sẽ hoạt động đúng
+
 ---
 
 ## 🎯 Workflow khuyến nghị

@@ -15,7 +15,7 @@ import NewsDetailPage from './pages/NewsDetailPage';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/tumiki">
       <div className="min-h-screen flex flex-col">
         <Header />
         <div className="flex-1">
